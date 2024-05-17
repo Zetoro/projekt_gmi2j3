@@ -13,7 +13,7 @@ namespace MSTest
     public class OrganizerTest
     {
         [TestMethod]
-        public void TestInvalidDateTime()
+        public void Test_Invalid_DateTime()
         {
             Assert.ThrowsException<InvalidDataException>(() => new Ocassion("Rock","Rasmus","Consert", "2024-05-12 22:00","brick"));
         }
@@ -23,7 +23,7 @@ namespace MSTest
             string occasionName = "RockStar";
             string performer = "Rasmus";
             string occasionType = "Consert";
-            string occasionDateString = "2025/07/17 22:00";
+            string occasionDateString = "2024/07/17 22:00";
             string premiseType = "brick";
             new Ocassion(occasionName, performer, occasionType, occasionDateString, premiseType);
 
@@ -39,14 +39,14 @@ namespace MSTest
         }
         
         [TestMethod]
-        public void TestValidOccasion()
+        public void Test_Valid_Occasion()
         {
             PremiseFactory premiseFactory = new PremiseFactory();
             string occasionName = "RockStar";
             string performer = "Rasmus";
             string occasionType = "Consert";
-            DateTime occasionDate = DateTime.Parse("2024/07/17 22:00");
-            string occasionDateString = "2024/07/17 22:00";
+            DateTime occasionDate = DateTime.Parse("2024/07/18 22:00");
+            string occasionDateString = "2024/07/18 22:00";
             Premise premiseType = premiseFactory.TypeOfPremise("brick");
             string premiseTypeString = "brick";
 
@@ -61,7 +61,7 @@ namespace MSTest
             Assert.AreEqual(premiseType.location, occasion.premiseSet.location);
         }
         [TestMethod]
-        public void TestInvalidLocation()
+        public void Test_Invalid_Location()
         {
             string occasionName = "RockStar";
             string performer = "Rasmus";
@@ -74,7 +74,7 @@ namespace MSTest
             });
         }
         [TestMethod]
-        public void TestInvalidDateFormat()
+        public void Test_Invalid_Date_Format()
         {
             string occasionName = "RockStar";
             string performer = "Rasmus";
