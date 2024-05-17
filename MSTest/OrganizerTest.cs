@@ -60,6 +60,7 @@ namespace MSTest
             Assert.AreEqual(occasionDate, occasion.OcassionDate);
             Assert.AreEqual(premiseType.location, occasion.premiseSet.location);
         }
+
         [TestMethod]
         public void Test_Invalid_Location()
         {

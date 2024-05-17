@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Biljettshoppen.csproj">
+      <Assembly Name="Biljettshoppen, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="83" />
+          <Metric Name="CyclomaticComplexity" Value="125" />
+          <Metric Name="ClassCoupling" Value="23" />
+          <Metric Name="DepthOfInheritance" Value="2" />
+          <Metric Name="SourceLines" Value="726" />
+          <Metric Name="ExecutableLines" Value="228" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Biljettshoppen">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="79" />
+              <Metric Name="CyclomaticComplexity" Value="90" />
+              <Metric Name="ClassCoupling" Value="19" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="554" />
+              <Metric Name="ExecutableLines" Value="184" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BookingConfirmation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="26" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="Ticket BookingConfirmation.ticket" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Ticket BookingConfirmation.Ticket" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Ticket BookingConfirmation.Ticket.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BookingConfirmation.Ticket.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="BookingConfirmation.BookingConfirmation(Ticket ticket)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BookingConfirmation.SendEmail()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\BookingConfirmation.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Customer">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="70" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="49" />
+                  <Metric Name="ExecutableLines" Value="19" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Customer.name" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Customer.phonenumber" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Customer.email" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Customer.Customer(string name, string email, string phonenumber)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Customer.Name" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Customer.Name.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Customer.Name.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Customer.Phonenumber" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Customer.Phonenumber.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Customer.Phonenumber.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Customer.Email" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Customer.Email.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Customer.Email.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Customer.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Menu">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="181" />
+                  <Metric Name="ExecutableLines" Value="86" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Menu.StartMenu()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="(Ocassion, int) Menu.VäljEvent()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Customer Menu.AngeKundInformation()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Reservation Menu.SkapaEnResevation(Ocassion ocassion, Customer customer)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Ocassion Menu.BokaSittplatser(int number, Reservation reservation)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Menu.Betala(Reservation reservation)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Ticket Menu.CreateTicket(Reservation reservation)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Menu.SendBookingConfirmation(Ticket ticket)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="163">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Menu.SkapaEvent()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Menu.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Premise">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="92" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Premise._location" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool[,] Premise._seatReservations" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string Premise.location" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Premise.location.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Premise.location.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool[,] Premise.seatReservations" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool[,] Premise.seatReservations.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Premise.seatReservations.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string Premise.GetLocation()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool[,] Premise.GetSeats()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Premise1">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="43" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Method Name="Premise1.Premise1()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise1.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Premise1.GetLocation()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise1.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool[,] Premise1.GetSeats()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise1.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Premise2">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="50" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Method Name="Premise2.Premise2()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise2.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Premise2.GetLocation()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise2.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool[,] Premise2.GetSeats()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\Premise2.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PremiseFactory">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="68" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="21" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Method Name="Premise PremiseFactory.TypeOfPremise(string type)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\PremiseFolder\PremiseFactory.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Program.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Reservation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="74" />
+                  <Metric Name="CyclomaticComplexity" Value="24" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="116" />
+                  <Metric Name="ExecutableLines" Value="36" />
+                </Metrics>
+                <Members>
+                  <Field Name="int Reservation.seats" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="int Reservation.Seats" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Reservation.Seats.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Reservation.Seats.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="Ocassion Reservation.ocassion" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Customer Reservation.customer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;int&gt; Reservation.bookedseats" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PaymentStrategy Reservation.paymentStrategy" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PaymentFactory Reservation.paymentFactory" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="float Reservation.timer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Ocassion Reservation.Ocassion" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Ocassion Reservation.Ocassion.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Reservation.Ocassion.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Customer Reservation.Customer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Customer Reservation.Customer.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Reservation.Customer.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="List&lt;int&gt; Reservation.Bookedseats" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="List&lt;int&gt; Reservation.Bookedseats.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Reservation.Bookedseats.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="float Reservation.Timer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="float Reservation.Timer.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Reservation.Timer.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="Reservation.Reservation(Customer customer, Ocassion ocassion)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Reservation.DisplaySeatStatus(bool[,] reservations)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Reservation.ReserveSeat(bool[,] reservations, int row, int seat)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Reservation.Pay()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Reservation.setPaymentStrategy()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Reservation.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Ticket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="Reservation Ticket.reservation" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Ticket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Reservation Ticket.Reservation" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Ticket.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Reservation Ticket.Reservation.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Ticket.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ticket.Reservation.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Ticket.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="Ticket.Ticket(Reservation reservation)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Ticket.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Biljettshoppen.Events">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="74" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="112" />
+              <Metric Name="ExecutableLines" Value="36" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ActiveOcassions">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="73" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="33" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Field Name="List&lt;Ocassion&gt; ActiveOcassions.ocassions" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\ActiveOcassions.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;Ocassion&gt; ActiveOcassions.Ocassions" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\ActiveOcassions.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ActiveOcassions.AddOcassion(Ocassion ocassion)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\ActiveOcassions.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ActiveOcassions.PrintAllOcassions()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\ActiveOcassions.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Ocassion">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="74" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="73" />
+                  <Metric Name="ExecutableLines" Value="24" />
+                </Metrics>
+                <Members>
+                  <Field Name="PremiseFactory Ocassion.premiseFactory" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Premise Ocassion.premise" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ocassion._ocassionName" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ocassion._ocassionPerformer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTime Ocassion._ocassionDate" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ocassion._ocassionType" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Ocassion.Ocassion(string ocassionName, string ocassionPerformer, string ocassionType, string ocassionDateString, string typeOfPremise)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Ocassion.OcassionName" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Ocassion.OcassionName.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.OcassionName.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Ocassion.OcassionPerformer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Ocassion.OcassionPerformer.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.OcassionPerformer.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="62">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime Ocassion.OcassionDate" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime Ocassion.OcassionDate.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.OcassionDate.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="67">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Premise Ocassion.premiseSet" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Premise Ocassion.premiseSet.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="71">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.premiseSet.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="72">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="PremiseFactory Ocassion.PremiseFactory" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="PremiseFactory Ocassion.PremiseFactory.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="76">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.PremiseFactory.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="77">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Ocassion.OcassionType" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Ocassion.OcassionType.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="81">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Ocassion.OcassionType.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Events\Ocassion.cs" Line="82">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Biljettshoppen.Interfaces">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="8" />
+              <Metric Name="ClassCoupling" Value="1" />
+              <Metric Name="DepthOfInheritance" Value="0" />
+              <Metric Name="SourceLines" Value="10" />
+              <Metric Name="ExecutableLines" Value="0" />
+            </Metrics>
+            <Types>
+              <NamedType Name="iOcassion">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string iOcassion.OcassionName" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string iOcassion.OcassionName.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void iOcassion.OcassionName.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string iOcassion.OcassionPerformer" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string iOcassion.OcassionPerformer.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void iOcassion.OcassionPerformer.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime iOcassion.OcassionDate" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime iOcassion.OcassionDate.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void iOcassion.OcassionDate.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string iOcassion.OcassionType" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string iOcassion.OcassionType.get" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void iOcassion.OcassionType.set" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Interfaces\iOcassion.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Biljettshoppen.Payment">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="92" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="3" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="50" />
+              <Metric Name="ExecutableLines" Value="8" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BillPayment">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="string BillPayment.Pay()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Payment\BillPayment.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="CardPayment">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="string CardPayment.Pay()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Payment\CardPayment.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PaymentFactory">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="70" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Method Name="PaymentStrategy PaymentFactory.TypeOfPayment(string type)" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Payment\PaymentFactory.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PaymentStrategy">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="4" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="string PaymentStrategy.Pay()" File="C:\Users\rasmu\OneDrive - Högskolan Dalarna\IT-Säk\VT24\GMI2J3 - Mjukvaru 1\projekt_gmi2j3\Biljettshoppen\Biljettshoppen\Payment\PaymentStrategy.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
