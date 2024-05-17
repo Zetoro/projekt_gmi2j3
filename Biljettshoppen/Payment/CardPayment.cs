@@ -12,7 +12,5 @@ namespace Biljettshoppen.Payment
         {
             return "Pay By Card";
         }
-
-
     }
 }
