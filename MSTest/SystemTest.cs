@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Biljettshoppen.Events;
 using Biljettshoppen;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Biljettshoppen.Payment;
+using Moq;
 
 namespace MSTest
 {
@@ -61,6 +63,26 @@ namespace MSTest
             {
                 Reservation reservation = new Reservation(customer1, ActiveOcassions.Ocassions[8]);
             });
+        }
+        [TestMethod]
+        public void TypeOfPayment_ShouldReturnCardPayment_WhenTypeIsCard()
+        {
+            var factory = new Mock<PaymentFactory> { CallBase = true };
+
+            var result = factory.Object.TypeOfPayment("Card");
+
+            Assert.IsInstanceOfType(result, typeof(CardPayment));
+            Assert.AreEqual("Pay By Card", result.Pay());
+        }
+        [TestMethod]
+        public void TypeOfPayment_ShouldReturnBillPayment_WhenTypeIsBill()
+        {
+            var factory = new Mock<PaymentFactory> { CallBase = true };
+
+            var result = factory.Object.TypeOfPayment("Bill");
+
+            Assert.IsInstanceOfType(result, typeof(BillPayment));
+            Assert.AreEqual("Pay By Bill", result.Pay());
         }
     }
 }
