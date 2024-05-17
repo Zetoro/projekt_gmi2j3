@@ -106,7 +106,7 @@ namespace Biljettshoppen
                 Console.WriteLine($"Du kan välja max 5 platser, just nu har du {maximumSeats + 1} platser");
                 Console.WriteLine("För att välja en till plats skriv ja annars skriv nej");
                 string userInput4 = Console.ReadLine();
-                if (userInput4 == "ja" && maximumSeats < 4)
+                if (userInput4 == "ja")
                 {
                     continueBooking = true;
                     maximumSeats++;
